@@ -70,6 +70,17 @@ function Navigation() {
                                     <Link to="/about" className="text-blue-400">About</Link>
                                 </li>
                             </ul>
+                            <Switch>
+                                <Route path="/">
+                                    <h1 className="font-bold text-2xl">This is homepage</h1>
+                                </Route>
+                                <Route path="/about">
+                                    <h1 className="font-bold text-2xl">This is About page</h1>
+
+                                </Route>
+                            </Switch>
+
+
                         </Router>
 
 
